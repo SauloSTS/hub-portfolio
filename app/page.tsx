@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {Sun, TrendingUp, User, ArrowRight} from 'lucide-react';
+import {Sun, TrendingUp, User, ArrowRight, ShoppingCart, QrCode} from 'lucide-react';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           Ferramentas de Decisão Inteligente
         </h1>
         <p className="text-slate-400 text-lg">
-          Calcule a eficiência da sua energia solar ou simule sua independência financeira com Fundos Imobiliários.
+          Calcule a eficiência da sua energia solar, simule sua independência financeira com Fundos Imobiliários ou gerencie suas compras.
         </p>
       </header>
 
@@ -44,6 +44,36 @@ export default function Home() {
             </h2>
             <p className="text-slate-400 text-sm">
               Descubra quantas cotas precisa para alcançar a renda de um salário mínimo e compare o rendimento com a Poupança.
+            </p>
+          </div>
+        </Link>
+
+        {/* Card 3: Lista de Compras */}
+        <Link href="/lista-compras" className="group relative rounded-2xl border border-slate-800 bg-slate-900/50 p-8 transition-all hover:border-cyan-500/50 hover:bg-slate-900 hover:shadow-2xl hover:shadow-cyan-500/10">
+          <div className="flex flex-col items-start gap-4">
+            <div className="p-3 rounded-xl bg-amber-500/10 text-cyan-400 group-hover:scale-110 transition-transform">
+              <ShoppingCart className="w-8 h-8"/>
+            </div>
+            <h2 className="text-2xl font-semibold group-hover:text-cyan-400 transition-colors">
+              Lista de Compra
+            </h2>
+            <p className="text-slate-400 text-sm">
+              Organize suas compras de forma prática. Adicione, gerencie itens e exporte sua lista formatada em PDF para o mercado.
+            </p>
+          </div>
+        </Link>
+
+        {/* Card 4: Leitor de Qr Code */}
+        <Link href="/qr-code" className="group relative rounded-2xl border border-slate-800 bg-slate-900/50 p-8 transition-all hover:border-purple-500/50 hover:bg-slate-900 hover:shadow-2xl hover:shadow-purple-500/10">
+          <div className="flex flex-col items-start gap-4">
+            <div className="p-3 rounded-xl bg-amber-500/10 text-purple-400 group-hover:scale-110 transition-transform">
+              <QrCode className="w-8 h-8"/>
+            </div>
+            <h2 className="text-2xl font-semibold group-hover:text-purple-400 transition-colors">
+              Leitor de QR Code
+            </h2>
+            <p className="text-slate-400 text-sm">
+              Escaneie códigos QR em tempo real pela câmera do seu dispositivo e acesse links e textos com praticidade.
             </p>
           </div>
         </Link>

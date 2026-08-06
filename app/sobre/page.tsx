@@ -109,20 +109,36 @@ export default function SobreMimPage() {
 
         {/* REDES E CONTATO */}
         <footer className="bg-gradient-to-r from-slate-900 via-slate-900 to-slate-800 p-8 rounded-2xl border border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div>
+          {/* Lado Esquerdo: Chamada Unificada */}
+          <div className="text-center lg:text-left space-y-1">
             <h3 className="text-xl font-bold text-white">Vamos construir algo juntos?</h3>
             <p className="text-xs text-slate-400 mt-1">
-              Acompanhe meus códigos, projetos e a evolução deste hub no GitHub.
+              Acompanhe meus projetos no GitHub ou conecte-se comigo no LinkedIn para trocarmos uma ideia.
             </p>
           </div>
+
+          {/* Lado Direito: Os dois botões lado a lado */}
           <div className="flex items-center gap-4">
+            {/* Botão GitHub */}
             <a
-              href="https://github.com/SauloSTS" //  link do meu perfil do GitHub aqui
+              href="https://github.com/SauloSTS"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl transition-all text-xs flex items-center gap-2"
+              className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl transition-all text-xs flex items-center gap-2 shadow-lg shadow-amber-500/10 active:scale-95"
             >
-              💻 Ver Meu GitHub
+              <span>💻</span>
+              <span>GitHub</span>
+            </a>
+
+            {/* Botão LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/saulo-silva-83a5931a3/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl transition-all text-xs flex items-center gap-2 shadow-lg shadow-sky-500/10 active:scale-95"
+            >
+              <span>👔</span>
+              <span>LinkedIn</span>
             </a>
           </div>
         </footer>

@@ -6,7 +6,31 @@ O formato é baseado no [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 
 ## [Unreleased] - Em Desenvolvimento
 - [X] Calculadora de Juros Compostos
-- [X] Suporte a temas escuro/claro
+- [X] Calculadora de Placa SOlar
+- [X] Lista de Compras
+- [X] Leitor de QR Code
+- [ ] Sorteador de Números Personalizado
+- [ ] Sorteador de Nomes / Equipes (Com Visual de Roleta/Animação)
+- [ ] Teste Vocacional Interativo
+- [ ] Teste de Personalidade (Estilo MBTI / Big Five)
+- [ ] Dashboard de Clima & Previsão do Tempo (Weather App)
+- [ ] Gerador de QR Code
+- [ ] Editor e Pré-visualizador de Markdown em Tempo Real
+- [ ] Compressor e Redimensionador de Imagens no Navegador
+- [ ] Gerenciador de Tarefas Kanban (Estilo Trello)
+- [ ] Temporizador Pomodoro com Sons Ambiente e Métricas
+- [ ] Conversor de Unidades & Moedas com Cotação em Tempo Real
+- [ ] Gerador de Paletas de Cores & Extrator de Cores de Imagens
+- [ ] Gerador e Testador de Força de Senhas Seguras
+- [ ] Leitor de Arquivos CSV / Excel com Geração de Gráficos
+
+## [0.2.0] - 2026-08-06
+
+### Adicionado
+- **Lista de Compras Inteligente:** Funcionalidades para adição, exclusão, limpeza geral da lista e marcação de itens comprados/pendentes.
+- **Exportação para PDF:** Recurso que converte e baixa a lista de compras formatada em arquivo PDF.
+- **Leitor de QR Code:** Funcionalidade de escaneamento e decodificação de códigos QR via câmera do dispositivo.
+- **Link para LinkedIn:** Botão de navegação para o perfil do LinkedIn integrado à página "Sobre".
 
 ## [0.1.0] - 2026-07-29
 ### Adicionado
