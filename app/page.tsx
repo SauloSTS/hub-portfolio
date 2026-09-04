@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {Sun, TrendingUp, User, ArrowRight, ShoppingCart, QrCode} from 'lucide-react';
+import {Sun, TrendingUp, User, ArrowRight, ShoppingCart, QrCode, Dices} from 'lucide-react';
 
 export default function Home() {
   return (
@@ -66,7 +66,7 @@ export default function Home() {
         {/* Card 4: Leitor de Qr Code */}
         <Link href="/qr-code" className="group relative rounded-2xl border border-slate-800 bg-slate-900/50 p-8 transition-all hover:border-purple-500/50 hover:bg-slate-900 hover:shadow-2xl hover:shadow-purple-500/10">
           <div className="flex flex-col items-start gap-4">
-            <div className="p-3 rounded-xl bg-amber-500/10 text-purple-400 group-hover:scale-110 transition-transform">
+            <div className="p-3 rounded-xl bg-purple-500/10 text-purple-400 group-hover:scale-110 transition-transform">
               <QrCode className="w-8 h-8"/>
             </div>
             <h2 className="text-2xl font-semibold group-hover:text-purple-400 transition-colors">
@@ -74,6 +74,21 @@ export default function Home() {
             </h2>
             <p className="text-slate-400 text-sm">
               Escaneie códigos QR em tempo real pela câmera do seu dispositivo e acesse links e textos com praticidade.
+            </p>
+          </div>
+        </Link>
+
+        {/* Card 5: Sorteador de Números e Nomes */}
+        <Link href="/sorteador" className="group relative rounded-2xl border border-slate-800 bg-slate-900/50 p-8 transition-all hover:border-stone-500/50 hover:bg-slate-900 hover:shadow-2xl hover:shadow-stone-500/10">
+          <div className="flex flex-col items-start gap-4">
+            <div className="p-3 rounded-xl bg-stone-500/10 text-stone-400 group-hover:scale-110 transition-transform">
+              <Dices className="w-8 h-8"/>
+            </div>
+            <h2 className="text-2xl font-semibold group-hover:text-stone-400 transition-colors">
+              Sorteador de Números e Nomes
+            </h2>
+            <p className="text-slate-400 text-sm">
+              Realize sorteios de números e nomes de forma rápida e configurável.
             </p>
           </div>
         </Link>

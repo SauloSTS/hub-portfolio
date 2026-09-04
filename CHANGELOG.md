@@ -9,8 +9,8 @@ O formato é baseado no [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 - [X] Calculadora de Placa SOlar
 - [X] Lista de Compras
 - [X] Leitor de QR Code
-- [ ] Sorteador de Números Personalizado
-- [ ] Sorteador de Nomes / Equipes (Com Visual de Roleta/Animação)
+- [X] Sorteador de Números Personalizado
+- [X] Sorteador de Nomes / Equipes (Com Visual de Roleta/Animação)
 - [ ] Teste Vocacional Interativo
 - [ ] Teste de Personalidade (Estilo MBTI / Big Five)
 - [ ] Dashboard de Clima & Previsão do Tempo (Weather App)
@@ -23,6 +23,10 @@ O formato é baseado no [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 - [ ] Gerador de Paletas de Cores & Extrator de Cores de Imagens
 - [ ] Gerador e Testador de Força de Senhas Seguras
 - [ ] Leitor de Arquivos CSV / Excel com Geração de Gráficos
+
+## [0.3.0] - 2026-09-04
+### Adicionado
+- **Sorteador de Números e Nomes:** Funcionalidade para realização de sorteios numéricos e de nomes em grupos/listas de forma aleatória.
 
 ## [0.2.0] - 2026-08-06
 
